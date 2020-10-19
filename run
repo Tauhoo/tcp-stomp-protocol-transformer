@@ -1,0 +1,3 @@
+go build -o build.out
+./build.out
+rm build.out

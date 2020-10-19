@@ -1,0 +1,7 @@
+github.com/go-stomp/stomp v1.0.1 h1:f90kcc2VJM+65lbpmnMO9Ef+PWn+qbamSrSR63V8ygM=
+github.com/go-stomp/stomp v2.0.6+incompatible h1:4arQsMXdczrQtVOkhY7Rzt0AIDPs3yheg7vvmWEobSA=
+github.com/go-stomp/stomp v2.0.6+incompatible/go.mod h1:VqCtqNZv1226A1/79yh+rMiFUcfY3R109np+7ke4n0c=
+github.com/google/uuid v1.0.0 h1:b4Gk+7WdP/d3HZH8EJsZpvV7EtDOgaZLtnaNGIu1adA=
+github.com/google/uuid v1.0.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/pborman/uuid v1.2.1 h1:+ZZIw58t/ozdjRaXh/3awHfmWRbzYxJoAdNJxe/3pvw=
+github.com/pborman/uuid v1.2.1/go.mod h1:X/NO0urCmaxf9VXbdlT7C2Yzkj2IKimNn4k+gtPdI/k=
