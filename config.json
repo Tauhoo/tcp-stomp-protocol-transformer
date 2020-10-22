@@ -4,5 +4,5 @@
     "tcp_buffer": 1024,
     "tcp_to_stomp": "/queue/to_queue",
     "stomp_to_tcp": "/queue/from_queue",
-    "reference_stomp_header": "ConnectionID"
+    "reference_stomp_header": "JMSCorrelationID"
 }

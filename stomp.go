@@ -37,7 +37,12 @@ func stompSendingHandlerRoutine(conn *stomp.Conn, sendRequestChannel chan SendRe
 	log.Println("stomp sending handler routine is up")
 	for {
 		sendRequestData := <-sendRequestChannel
-		conn.Send(sendRequestData.destination, sendRequestData.contentType, sendRequestData.data, stomp.SendOpt.Header(config.ReferenceStompHeader, sendRequestData.connectionID))
+		conn.Send(
+			sendRequestData.destination,
+			sendRequestData.contentType,
+			sendRequestData.data,
+			stomp.SendOpt.Header(config.ReferenceStompHeader, sendRequestData.connectionID),
+			stomp.SendOpt.Header("reply-to", config.StompToTCP))
 		log.Println("send data to stomp server")
 	}
 }
